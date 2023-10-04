@@ -9,7 +9,9 @@ export class SmallCardComponent implements OnInit {
   @Input()
   photoCover: string = '';
   @Input()
-  cardTitle: string = 'Saiu a nova versão do Angular';
+  cardTitle: string = '';
+  @Input()
+  Id:string = ""
 
   constructor() {}
 
